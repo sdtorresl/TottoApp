@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="TextTheme" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+
+    <style name="TitleTechniques" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">#FFC000</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DescriptionTechniques" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="ArtistTitle" parent="TitleTechniques"></style>
+
+    <style name="ArtistAge" parent="TextTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ArtistDescription" parent="TextTheme"></style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle" tools:ignore="NewApi">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background" tools:ignore="NewApi">@color/red</item>
+        <item name="background">@color/red</item>
+    </style>
+
+
+
+</resources>

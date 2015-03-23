@@ -1,0 +1,61 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.exeamedia.totto.KarolFuentes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageKarolFuentes"
+                android:src="@mipmap/karol_fuentes"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:layout_gravity="left|center_vertical"
+                android:src="@mipmap/left_arrow"
+                android:background="#00ffffff" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:layout_gravity="right|center_vertical"
+                android:src="@mipmap/right_arrow"
+                android:background="#00ffffff" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/ArtistTitle"
+            android:text="@string/artist_title_1"
+            android:id="@+id/textArtistTitle" />
+
+        <TextView
+            style="@style/ArtistAge"
+            android:text="@string/artist_age_1"
+            android:id="@+id/textArtistAge"/>
+
+        <TextView
+            style="@style/ArtistDescription"
+            android:text="@string/artist_description_1"
+            android:id="@+id/textArtistDescription"/>
+
+    </LinearLayout>
+</ScrollView>
