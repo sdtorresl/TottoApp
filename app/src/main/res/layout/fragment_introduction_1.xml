@@ -24,11 +24,10 @@
 
         </FrameLayout>
 
-
         <TextView
             style="@style/TextTheme"
-            android:text="@string/intro1"
-            android:id="@+id/intro1TextView" />
+            android:text=""
+            android:id="@+id/introTextView" />
 
     </LinearLayout>
 
