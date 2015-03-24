@@ -10,6 +10,8 @@
 
     <!--Actions texts-->
     <string name="action_settings">Acerca de</string>
+    <string name="action_artists">Artistas</string>
+    <string name="action_techniques">Técnicas</string>
 
     <!-- Activities -->
     <string name="title_activity_main">Bienvenido</string>
@@ -23,25 +25,54 @@
     <string name="description_fragment_technique_1">El ejercicio de retícula plantea un reto creativo: el uso de colores y formas para construir una imagen única e irrepetible como el universo interno de cada niño.</string>
 
     <!-- Artists -->
-    <string name="artist_title_1">Karol Fuentes Pinzón</string>
+    <string name="artist_title_1">Shirley Vanessa Arias Chivata</string>
     <string name="artist_age_1">8 años</string>
-    <string name="artist_description_1">Soy una niña llamada karol, tengo 8 años. A mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="artist_description_1">Soy una niña muy tímida, no me gusta hablar en público, me gusta jugar con mi hermanita y pasar mucho tiempo con mi mama.</string>
 
     <string name="artist_title_2">Karol Fuentes Pinzón</string>
     <string name="artist_age_2">8 años</string>
-    <string name="artist_description_2">Soy una niña llamada karol, tengo 8 años a mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="artist_description_2">Soy una niña llamada karol, tengo 8 años. A mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
 
-    <string name="artist_title_3">Karol Fuentes Pinzón</string>
-    <string name="artist_age_3">8 años</string>
-    <string name="artist_description_3">Soy una niña llamada karol, tengo 8 años a mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="artist_title_3">Heydi Fuentes Pinzón</string>
+    <string name="artist_age_3">9 años</string>
+    <string name="artist_description_3">Tengo 9 años Me gusta jugar futbol mucho con mis amigos porque aprendo a correr y a correr más rápido, cuando sea grande me gustaría ser policía para coger a los ladrones y ayudar para que no se roben los niños.</string>
 
-    <string name="artist_title_4">Karol Fuentes Pinzón</string>
+    <string name="artist_title_4">Leidy Gonzales Sandoval</string>
     <string name="artist_age_4">8 años</string>
-    <string name="artist_description_4">Soy una niña llamada karol, tengo 8 años a mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="artist_description_4">Soy leydi tengo 7 años, me gusta el bailar mucho reggaetón, cantar, jugar y reírme,  me gustaría ser doctora para ayudar a las personas con las enfermedades que les dan.</string>
+
+    <string name="artist_title_5">Sharon Gutierrez Castañeda</string>
+    <string name="artist_age_5">7 años</string>
+    <string name="artist_description_5">Tengo 7 años , me gusta ir al parque porque puedo jugar y correr, soy muy consentida por mis papitos, cuando crezca quiero ser profesora para ayudar a los niños a aprender cosas nuevas.</string>
     
-    <string name="artist_title_5">Karol Fuentes Pinzón</string>
-    <string name="artist_age_5">8 años</string>
-    <string name="artist_description_5">Soy una niña llamada karol, tengo 8 años a mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="artist_title_6">Nathalia Ibarra Cardenas</string>
+    <string name="artist_age_6">8 años</string>
+    <string name="artist_description_6">soy una niña que le gusta jugar a las escondías y a las cogidas , tengo 8 años vivo con mi abuelita quiero ser odontóloga para sacarle los dientes a las personas cuando se les dañan, y puedan reir mejor.</string>
+
+    <string name="artist_title_7">Julian Patarroyo Mancilla</string>
+    <string name="artist_age_7">8 años</string>
+    <string name="artist_description_7">Yo tengo 8 años , vivo con mis abuelitos, me gusta dibujar muñecos bonitos de la televisión y jugar con mis amigos, cuando crezca quiero ser policía porque ayudan a la gente a coger los ladrones.</string>
+
+    <string name="artist_title_8">Brayan Peña Ramirez</string>
+    <string name="artist_age_8">8 años</string>
+    <string name="artist_description_8">Soy un niño juicioso tengo 8 años , me gusta la música como escuchar reggaetón, no me gusta las rancheras ni el vallenato, quiero ser policía para hacer el bien a las personas y jugar a las cogidas.</string>
+
+    <string name="artist_title_9">Joiner Rojas Cachinoy</string>
+    <string name="artist_age_9">7 años</string>
+    <string name="artist_description_9">Me gusta jugar mucho con mis papitos y mi hermano, soy alegre y juicioso, me gusta reír mucho, me gusta jugar futbol por eso quiero ser cuando grande  futbolista o también policía.</string>
+
+    <string name="artist_title_10">Wendy Tovar Zubieta</string>
+    <string name="artist_age_10">8 años</string>
+    <string name="artist_description_10">Soy una niña alegre, me gusta colorear, dibujar  y  ayudar a las profesoras, me gusta ir a la escuela a estudiar matemáticas, me gustaría cuando grande ser modelo porque es mi sueño caminar por las pasarelas con ropa linda y tengo 8 años</string>
+
+    <string name="artist_title_11">Nicolás Rincón Quintero</string>
+    <string name="artist_age_11">9  años</string>
+    <string name="artist_description_11">Me gusta jugar, vivo con mi abuelita y con mi mama, me gusta estar poquito con mi mama por que molesta mucho por su enfermedad, me gustaría ser policía porque me parece chévere ayudar a las personas para que estén bien.</string>
+
+    <string name="artist_title_12">Jean Paul Moreno Castiblanco</string>
+    <string name="artist_age_12">9 años</string>
+    <string name="artist_description_12">Me gusta jugar con el computador y con mis amigos en el ex box, disfrutar con mis amigos, cuando grande quiero ser ingeniero de sistemas porque me gusta la tecnología.</string>
+
     <string name="title_activity_introduction">Totto al Tablero</string>
 
 

@@ -10,17 +10,26 @@
         <activity
             android:name=".Artists"
             android:label="@string/title_activity_artists"
+            android:parentActivityName=".Introduction"
             android:theme="@style/CustomActionBarTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exeamedia.totto.Introduction" />
         </activity>
         <activity
             android:name=".Techniques"
-            android:label="@string/title_activity_techniques" >
+            android:label="@string/title_activity_techniques"
+            android:parentActivityName=".Introduction" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exeamedia.totto.Introduction" />
         </activity>
         <activity
             android:name=".Introduction"
             android:label="@string/title_activity_introduction" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

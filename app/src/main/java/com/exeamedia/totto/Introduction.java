@@ -1,5 +1,6 @@
 package com.exeamedia.totto;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -125,6 +126,38 @@ public class Introduction extends ActionBarActivity {
          */
         private static final String ARG_SECTION_NUMBER = "section_number";
 
+        @Override
+        public void onCreate (Bundle savedInstanceState){
+            super.onCreate(savedInstanceState);
+            setHasOptionsMenu(true);
+        }
+
+        //@Override
+        //public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        //    inflater.inflate(R.menu.menu_introduction, menu);
+        //}
+
+        @Override
+        public boolean onOptionsItemSelected(MenuItem item) {
+            int id = item.getItemId();
+            Intent intent;
+
+            if (id == R.id.action_artists){
+                intent = new Intent(getActivity(), Artists.class);
+                startActivity(intent);
+                return true;
+            }
+
+            else if (id == R.id.action_techniques){
+                intent = new Intent(getActivity(), Techniques.class);
+                startActivity(intent);
+                return true;
+            }
+
+            return super.onOptionsItemSelected(item);
+        }
+
+
         /**
          * Returns a new instance of this fragment for the given section
          * number.
@@ -146,7 +179,7 @@ public class Introduction extends ActionBarActivity {
             View rootView = inflater.inflate(R.layout.fragment_introduction_1, container, false);
 
             TextView introTextView = (TextView) rootView.findViewById(R.id.introTextView);
-            introTextView.setText(getSectionText (getArguments().getInt(ARG_SECTION_NUMBER)));
+            introTextView.setText(getSectionText(getArguments().getInt(ARG_SECTION_NUMBER)));
 
             return rootView;
         }
