@@ -12,7 +12,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="210dp"
             android:background="@color/red"
             android:id="@+id/imageView"
             android:src="@mipmap/group"
@@ -26,25 +26,14 @@
             android:paddingRight="0dp"
             android:layout_gravity="center">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/leftButton"
-                android:layout_gravity="center_vertical"
-                android:clickable="true"
-                android:src="@mipmap/left_arrow"
-                android:background="@color/transparent"
-                android:layout_weight="0.1" />
-
             <TextView
                 style="@style/TextTheme"
-                android:text="@string/intro1"
+                android:text="@string/artists"
                 android:id="@+id/intro1TextView"
-                android:layout_width="300dp"
                 android:paddingLeft="0dp"
                 android:paddingRight="0dp"
                 android:layout_margin="0dp"
-                android:layout_weight="0.8" />
+                android:layout_weight="0.9" />
 
             <ImageButton
                 android:layout_width="wrap_content"

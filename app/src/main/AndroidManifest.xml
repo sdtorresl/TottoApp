@@ -11,15 +11,18 @@
             android:name=".Artists"
             android:label="@string/title_activity_artists"
             android:theme="@style/CustomActionBarTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Techniques"
             android:label="@string/title_activity_techniques" >
+        </activity>
+        <activity
+            android:name=".Introduction"
+            android:label="@string/title_activity_introduction" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

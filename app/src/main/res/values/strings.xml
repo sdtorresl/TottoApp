@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Totto</string>
 
-    <!-- App texts -->
+    <!-- Introduction -->
     <string name="intro1">En el imaginario infantil, en los sueños y en los juegos, rondan imágenes y personajes que nacen de la ilimitada creatividad de un grupo de pequeños artistas que por medio de sus manos dan vida a figuras llenas de color, vitalidad, frescura y espontaneidad; características de nuestra niñez.</string>
     <string name="intro2">Hace cinco años,  con 100 niños y niñas de la comuna 6 de Soacha , TOTTO inicia  proyecto social denominado TOTTO al Tablero,  donde a través de procesos artísticos empezamos  a crear y fortalecer los sueños de estos artistas que hoy nos sonríen.</string>
     <string name="intro3">Hoy los niños les dan la bienvenida a su exposición de arte.  Esperamos que se sumerjan en esta visón del mundo vista con los ojos de nuestros pequeños.</string>
-    <string name="images">Grupo de artistas totto</string>
+    <string name="intro4">Acércate a las obras para obtener más información sobre Totto al Tablero.</string>
+    <string name="artists">Les presentamos a los pequeños grandes artistas que participaron en esta transformación.</string>
 
     <!--Actions texts-->
     <string name="action_settings">Acerca de</string>
@@ -15,7 +16,7 @@
     <string name="title_activity_intro">Introducción</string>
     <string name="title_activity_artists">Artistas</string>
     <string name="title_activity_techniques">Técnicas</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="images">Grupo de artistas totto</string>
 
     <!-- Techniques -->
     <string name="title_fragment_technique_1">Retícula</string>
@@ -41,5 +42,13 @@
     <string name="artist_title_5">Karol Fuentes Pinzón</string>
     <string name="artist_age_5">8 años</string>
     <string name="artist_description_5">Soy una niña llamada karol, tengo 8 años a mí me gusta dibujar, jugar y divertirme, cuando yo sea grande quiero ser doctora para sanar los niños y ayudar a mi mamita para que no trabaje.</string>
+    <string name="title_activity_introduction">Totto al Tablero</string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
 
 </resources>
