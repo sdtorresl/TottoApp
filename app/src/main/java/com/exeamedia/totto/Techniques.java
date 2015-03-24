@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 import java.util.Locale;
 
@@ -31,6 +32,7 @@ public class Techniques extends ActionBarActivity {
      * The {@link ViewPager} that will host the section contents.
      */
     ViewPager mViewPager;
+    final int N_TECHNIQUES = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,15 +86,41 @@ public class Techniques extends ActionBarActivity {
 
         @Override
         public Fragment getItem(int position) {
+            String techniqueName;
+            String techniqueDescription;
+
+            switch (position){
+                case 0:
+                    techniqueName = getResources().getString(R.string.title_fragment_technique_1);
+                    techniqueDescription = getResources().getString(R.string.description_fragment_technique_1);
+                    break;
+                case 1:
+                    techniqueName = getResources().getString(R.string.title_fragment_technique_2);
+                    techniqueDescription = getResources().getString(R.string.description_fragment_technique_2);
+                    break;
+                case 2:
+                    techniqueName = getResources().getString(R.string.title_fragment_technique_3);
+                    techniqueDescription = getResources().getString(R.string.description_fragment_technique_3);
+                    break;
+                case 3:
+                    techniqueName = getResources().getString(R.string.title_fragment_technique_4);
+                    techniqueDescription = getResources().getString(R.string.description_fragment_technique_4);
+                    break;
+                default:
+                    techniqueName = getResources().getString(R.string.title_fragment_technique_5);
+                    techniqueDescription = getResources().getString(R.string.description_fragment_technique_5);
+                    break;
+            }
+
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            return PlaceholderFragment.newInstance(techniqueName, techniqueDescription);
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return N_TECHNIQUES;
         }
 
         @Override
@@ -118,16 +146,30 @@ public class Techniques extends ActionBarActivity {
          * The fragment argument representing the section number for this
          * fragment.
          */
-        private static final String ARG_SECTION_NUMBER = "section_number";
+        private static final String TECHNIQUE_NAME = "name";
+        private static final String TECHNIQUE_DESCRIPTION = "description";
+
+        private String techniqueName;
+        private String techniqueDescription;
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            if (getArguments() != null) {
+                techniqueName = getArguments().getString(TECHNIQUE_NAME);
+                techniqueDescription = getArguments().getString(TECHNIQUE_DESCRIPTION);
+            }
+        }
 
         /**
          * Returns a new instance of this fragment for the given section
          * number.
          */
-        public static PlaceholderFragment newInstance(int sectionNumber) {
+        public static PlaceholderFragment newInstance(String techniqueName, String techniqueDescription) {
             PlaceholderFragment fragment = new PlaceholderFragment();
             Bundle args = new Bundle();
-            args.putInt(ARG_SECTION_NUMBER, sectionNumber);
+            args.putString(TECHNIQUE_NAME, techniqueName);
+            args.putString(TECHNIQUE_DESCRIPTION, techniqueDescription);
             fragment.setArguments(args);
             return fragment;
         }
@@ -139,6 +181,13 @@ public class Techniques extends ActionBarActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_techniques, container, false);
+
+            TextView techniqueNameTextView = (TextView) rootView.findViewById(R.id.technique_name);
+            TextView techniqueDescriptionTextView = (TextView) rootView.findViewById(R.id.technique_description);
+
+            techniqueNameTextView.setText(this.techniqueName);
+            techniqueDescriptionTextView.setText(this.techniqueDescription);
+
             return rootView;
         }
     }

@@ -24,6 +24,19 @@
     <string name="title_fragment_technique_1">Retícula</string>
     <string name="description_fragment_technique_1">El ejercicio de retícula plantea un reto creativo: el uso de colores y formas para construir una imagen única e irrepetible como el universo interno de cada niño.</string>
 
+    <string name="title_fragment_technique_2">Boceto mosaico</string>
+    <string name="description_fragment_technique_2">Trabajo en equipo para sacar adelante un proyecto que al final que pertenece a todos.</string>
+
+    <string name="title_fragment_technique_3">Dripping</string>
+    <string name="description_fragment_technique_3"> </string>
+
+    <string name="title_fragment_technique_4">Mixta</string>
+    <string name="description_fragment_technique_4">Esos "terribles" monstruos de mil colores hoy se materializan, salen del papel para mostrar que son reales y que el único temor que demos albergar es el de dejar de ser niños, perder la creatividad, aburrirnos y sumirnos en la tristeza, eso sí es verdaderamente terrorífico.</string>
+
+    <string name="title_fragment_technique_5">Tapiz</string>
+    <string name="description_fragment_technique_5">¿Quién dijo que el "desecho" no se puede crear? Los materiales necesarios: periódico, periódico y más periódico.</string>
+
+
     <!-- Artists -->
     <string name="artist_title_1">Shirley Vanessa Arias Chivata</string>
     <string name="artist_age_1">8 años</string>

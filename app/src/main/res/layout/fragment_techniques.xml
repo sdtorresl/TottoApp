@@ -17,7 +17,8 @@
 
             <TextView
                 android:text="@string/title_fragment_technique_1"
-                style="@style/TitleTechniques"/>
+                style="@style/TitleTechniques"
+                android:id="@+id/technique_name"/>
         </GridLayout>
 
         <TextView
@@ -28,7 +29,8 @@
             android:gravity="top"
             android:textAlignment="gravity"
             android:layout_height="fill_parent"
-            android:layout_width="fill_parent" />
+            android:layout_width="fill_parent"
+            android:id="@+id/technique_description"/>
 
         <ImageView
             android:layout_width="100dp"
