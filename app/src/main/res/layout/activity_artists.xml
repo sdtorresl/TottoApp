@@ -1,4 +1,51 @@
-<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/pager"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    tools:context="com.exeamedia.totto.Techniques" />
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.exeamedia.totto.Artists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:background="@color/red"
+            android:id="@+id/imageView"
+            android:src="@mipmap/group"
+            android:layout_marginBottom="0dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_gravity="center">
+
+            <TextView
+                style="@style/TextTheme"
+                android:text="@string/artists"
+                android:id="@+id/intro1TextView"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:layout_margin="0dp"
+                android:layout_weight="0.9" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rightButton"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/right_arrow"
+                android:background="@color/transparent"
+                android:layout_weight="0.1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
